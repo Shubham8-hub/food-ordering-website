@@ -1,0 +1,53 @@
+/* 
+This css is used for a device of certain limits
+*/
+
+
+/* Navigation */
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+/* Home section */
+#home{
+    height: 510px;
+    padding: 3px 20px;
+
+}
+
+#home::before{
+    height: 545px;
+}
+
+#home p{
+    font-size: 1rem;
+}
+/* services */
+#services{
+    flex-direction: column;
+    margin-top: -1px;
+}
+
+/* Client */
+#clients{
+    overflow: hidden;
+}
+
+/* Contact us */
+
+/* Utility classes */
+.h-primary{
+    font-size: 20px;
+}
